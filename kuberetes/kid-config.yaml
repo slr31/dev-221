@@ -1,0 +1,8 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/vlalpha4
+nodes:
+- Trole: control-plane extraPortMappings:
+- containerPort: 80
+hostPort: 80
+- containerPort: 443
+hostPort: 443
